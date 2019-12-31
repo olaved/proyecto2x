@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @comprador.nombre %>
+</p>
+
+<p>
+  <strong>Ap paterno:</strong>
+  <%= @comprador.ap_paterno %>
+</p>
+
+<p>
+  <strong>Ap materno:</strong>
+  <%= @comprador.ap_materno %>
+</p>
+
+<p>
+  <strong>Rut:</strong>
+  <%= @comprador.rut %>
+</p>
+
+<p>
+  <strong>Telefono:</strong>
+  <%= @comprador.telefono %>
+</p>
+
+<%= link_to 'Edit', edit_comprador_path(@comprador) %> |
+<%= link_to 'Back', compradors_path %>
